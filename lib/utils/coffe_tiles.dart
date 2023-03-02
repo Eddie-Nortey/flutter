@@ -56,7 +56,7 @@ class CoffeeTile extends StatelessWidget {
                 children: [
                   Text('\$' + coffeePrice),
                   Container(
-                    padding: EdgeInsets.all(4),
+                    padding: EdgeInsets.only(left: 4, right: 4),
                       child: Icon(Icons.add),
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(6),
@@ -64,7 +64,8 @@ class CoffeeTile extends StatelessWidget {
                   ), ),
                 ],
               ),
-            )
+            ),
+
           ],
         ),),
       );
